@@ -1,0 +1,29 @@
+body{
+    background-color: pink ;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.maincontent {
+    width: 450 px 
+    background-color;
+    text-align: center;
+}
+h1:hover {
+    color: black;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+ol{
+    text-align: left;
+}
+h4{
+    text-align: center;
+}

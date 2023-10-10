@@ -1,0 +1,17 @@
+img {
+    width: 80%;
+}
+* {
+    border: 2px solid blue;
+}
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}

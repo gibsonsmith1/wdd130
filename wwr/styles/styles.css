@@ -1,0 +1,63 @@
+div.content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+nav{
+    text-align: center; 
+}
+
+div.background {
+    height: 725px;
+}
+                
+hero-one h1{
+    text-align: center;
+}
+
+hero-two h1{
+    text-align: center;
+}
+
+hero-three h1{
+    text-align: center;
+}
+
+hero-four h1{
+    text-align: center;
+}
+
+hero-one h4{
+    text-align: center;
+}
+
+hero-two h4{
+    text-align: center;
+}
+
+hero-three h4{
+    text-align: center;
+}
+
+hero-four h4{
+    text-align: center;
+}
+
+main section{
+    text-align: center; 
+}
+
+
+
+body {
+    background-color: blanchedalmond; 
+}
+header {
+    background-color: brown;
+}
+nav a:hover {
+    background-color: black;
+}
+footer {
+    background-color: brown;
+}
