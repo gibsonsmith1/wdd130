@@ -1,63 +1,115 @@
-div.content {
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* main colors */
+  --primary-color: #909580   ;
+  --secondary-color: #BBACC1 ;
+  --accent1-color: #80727B;
+  --accent2-color: #F1DEDE;
+  --paragraph-color-on-color: F1DEDE; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #909580  ;
+  --paragraph-headline-color: #80727B;
+
+  /* font colors */
+  --heading-font: "Trebuchet MS";
+  --paragraph-font: Courier New, Helvetica, sans-serif;
+
+  /* headline colors */
+  --headline-color-on-white: #909580;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #909580; /* paragraph text on a white background */ 
+
+/* nav colors */
+  --nav-link-color: #909580;
+  --nav-background-color: #BBACC1;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #80727B;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+#content{
     margin: 0 auto;
     max-width: 1600px;
 }
 
-nav{
-    text-align: center; 
+header{
+    background-color: var(--secondary-color);
 }
 
-div.background {
-    height: 725px;
+.logo, .icon{
+    width: 80px;
 }
-                
-hero-one h1{
+
+nav a{
+    color: var(--nav-hover-link-color);
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-background-color);
+}
+
+#hero-img{
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4{
     text-align: center;
 }
 
-hero-two h1{
+.home-title{
+    color: var(--accent2-color);
+}
+
+h4{
+    color: var(--headline-color-on-white);
+}
+
+.button-box{
     text-align: center;
 }
 
-hero-three h1{
-    text-align: center;
+.book, .join{
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    text-decoration: none;
 }
-
-hero-four h1{
-    text-align: center;
-}
-
-hero-one h4{
-    text-align: center;
-}
-
-hero-two h4{
-    text-align: center;
-}
-
-hero-three h4{
-    text-align: center;
-}
-
-hero-four h4{
-    text-align: center;
+.book:hover, .join:hover{
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
 }
 
 main section{
-    text-align: center; 
+    text-align: center;
 }
 
+#background{
+    height: 725px;
+    background-color: var(--paragraph-background-color);
+}
 
+.msg{
+    background-color: var(--accent1-color);
+}
+.msg h2{
+    color: var(--accent2-color);
+}
+.msg p{
+    color: var(--nav-hover-background-color);
+}
 
-body {
-    background-color: blanchedalmond; 
+footer{
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
 }
-header {
-    background-color: brown;
+footer a{
+    color: var(--nav-link-color);
+        text-decoration: none;
 }
-nav a:hover {
-    background-color: black;
-}
-footer {
-    background-color: brown;
+footer a:hover{
+    color: var(--paragraph-color-on-white);
 }
