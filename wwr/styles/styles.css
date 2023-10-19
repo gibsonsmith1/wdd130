@@ -28,11 +28,22 @@
 
 body{
     background-color: var(--primary-color);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 #content{
     margin: 0 auto;
     max-width: 1600px;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 header{
@@ -47,6 +58,7 @@ nav a{
     color: var(--nav-hover-link-color);
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     color: var(--nav-hover-background-color);
@@ -63,6 +75,9 @@ nav a:hover{
 
 .home-title{
     color: var(--accent2-color);
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -77,14 +92,34 @@ h4{
     color: var(--nav-link-color);
     background-color: var(--nav-background-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color: var(--nav-link-color);
     background-color: var(--nav-background-color);
 }
 
+.card-img {
+    border: 10px solid var(--headline-color-on-white);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.icon{
+    padding-top: 10px;
+}
+
 main section{
     text-align: center;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 
 #background{
@@ -94,17 +129,24 @@ main section{
 
 .msg{
     background-color: var(--accent1-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: var(--accent2-color);
+    font-family: var(--heading-font);
 }
 .msg p{
     color: var(--nav-hover-background-color);
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer{
     color: var(--accent2-color);
     background-color: var(--secondary-color);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: var(--nav-link-color);
@@ -112,4 +154,7 @@ footer a{
 }
 footer a:hover{
     color: var(--paragraph-color-on-white);
+}
+footer .social img{
+    padding-top: 15px;
 }
